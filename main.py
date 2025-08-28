@@ -7,18 +7,22 @@ from discord.ext import commands
 #-------
 
 # the custom prefix you want to use
-prefix = '$' 
-client =  commands.Bot(command_prefix = prefix)
+intents = discord.Intents.default()
+intents.message_content = True
+prefix = "$"
+client = commands.Bot(command_prefix = prefix, intents=intents)
+permissions = 8
 
 # the instance storage class to store the seperate games
 class GameInstance:
-    messageId = 0
-    playerId = 0
-    board = gameManager.Board()
+    def __init__(self):
+        self.messageId = 0
+        self.playerId = 0
+        self.board = gameManager.Board()
 # the list of all the instances
 instances = []
 # a list of the allowed channel id's, if emty, all channels are allowed
-allowedChannelIds = [821126393097748530, 821130730582048828]
+allowedChannelIds = []
 
 #check if the channel is in the allowed list if the list is not 0
 async def CheckAllowedChannel(ctx):
