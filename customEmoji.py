@@ -28,39 +28,40 @@ class PlayerAction:
 
 # the available actions to choose from
 actions = [ 
-    PlayerAction(direction = 3, name = "Robo_Player_Left",  id = 815708233737437215, movement = True ),
-    PlayerAction(direction = 0, name = "Robo_Player_Up",    id = 815708021879472168, movement = True ),
-    PlayerAction(direction = 2, name = "Robo_Player_Down",  id = 815708233464807444, movement = True ),
-    PlayerAction(direction = 1, name = "Robo_Player_Right", id = 815708233754869791, movement = True ),
-    PlayerAction(direction = 0, name = "Robo_Player_Punch", id = 817500950692495411, movement = False ),
+    PlayerAction(direction = 3, name = "Robo_Player_Left",  id = 1410589572466737233, movement = True ),
+    PlayerAction(direction = 0, name = "Robo_Player_Up",    id = 1410589598941446235, movement = True ),
+    PlayerAction(direction = 2, name = "Robo_Player_Down",  id = 1410589583942488256, movement = True ),
+    PlayerAction(direction = 1, name = "Robo_Player_Right", id = 1410589591462744136, movement = True ),
+    PlayerAction(direction = 0, name = "Robo_Player_Punch", id = 1410590895052427365, movement = False ),
 ]
 
 # the different states of the robots
 # up  = 0, right = 1, down = 2, left = 3
+
 playerDirections = [
-    "<:Robo_Player_Up:815708021879472168>",
-    "<:Robo_Player_Right:815708233754869791>",
-    "<:Robo_Player_Down:815708233464807444>",
-    "<:Robo_Player_Left:815708233737437215>"
+    "<:Robo_Player_Up:1410589598941446235>",
+    "<:Robo_Player_Right:1410589591462744136>",
+    "<:Robo_Player_Down:1410589583942488256>",
+    "<:Robo_Player_Left:1410589572466737233>",
 ]
 damagedPlayerDirections = [
-    "<:Robo_Player_Up_Broken:815708798861443133>",
-    "<:Robo_Player_Right_Broken:815708799020040242>",
-    "<:Robo_Player_Down_Broken:815708799041404948>",
-    "<:Robo_Player_Left_Broken:815708798713987083>"
+    "<:Robo_Player_Up_Broken:1410589563503509514>",
+    "<:Robo_Player_Right_Broken:1410589554720903208>",
+    "<:Robo_Player_Down_Broken:1410589547183739060>",
+    "<:Robo_Player_Left_Broken:1410589538862235689>"
 ]
 
 npcDirections = [
-    "<:Robo_Bot_Up:821029480087945268>",
-    "<:Robo_Bot_Right:821029480382464071>",
-    "<:Robo_Bot_Down:821029480361099324>",
-    "<:Robo_Bot_Left:821029480314830898>"
+    "<:Robo_Bot_Up:1410589530758844416>",
+    "<:Robo_Bot_Right:1410589522797924434>",
+    "<:Robo_Bot_Down:1410589513385771028>",
+    "<:Robo_Bot_Left:1410589505026658415>"
 ]
 damagedNpcDirections = [
-    "<:Robo_Bot_Up_Broken:821029480465563648>",
-    "<:Robo_Bot_Right_Broken:821029480327020614>",
-    "<:Robo_Bot_Down_Broken:821029480554299433>",
-    "<:Robo_Bot_Left_Broken:821029480205254667>",
+    "<:Robo_Bot_Up_Broken:1410589495253930017>",
+    "<:Robo_Bot_Right_Broken:1410589485879529503>",
+    "<:Robo_Bot_Down_Broken:1410589474458701956>",
+    "<:Robo_Bot_Left_Broken:1410589436550320184>"
 ]
 #the emote for a dead, but not destroyed body
 deadBot = "❌"
@@ -70,6 +71,6 @@ deadBot = "❌"
 floorTile = "◻️"
 
 #cosmetic emotes
-redBot = "<:RoboyalRed:796464191056904192>"
-blueBot = "<:RoboyalBlue:796464638363435049>"
+redBot = "<:RoboYalRed:1410592745222836274>"
+blueBot = "<:RoboYalBlue:1410592735827853313>"
 
