@@ -37,16 +37,21 @@ def GetInfoEmbed():
         inline= True
     )
     embedVar.add_field(
-        name = "Source Code", 
+        name = "Source Code to the Jelle's Origional Project", 
         value = "https://github.com/Jellevermandere/roboyal-solo", 
         inline= False
     )
     embedVar.add_field(
-        name = "Discord Server:", 
+        name = "Source Code to the Fixed Project", 
+        value = "https://github.com/xelaoliver/roboyal-solo", 
+        inline= False
+    )
+    embedVar.add_field(
+        name = "Jelle's Discord Server:", 
         value = "https://discord.com/invite/cuMtQp6", 
         inline= False
     )
     embedVar.set_thumbnail(url = "https://cdn.discordapp.com/emojis/796464191056904192.png?v=1")
-    embedVar.set_footer(text = "Created by Jelle Vermandere", icon_url= "https://cdn.discordapp.com/emojis/736658894805532724.png?v=1")
+    embedVar.set_footer(text = "Created by Jelle Vermandere (fixed by Alex Oliver)", icon_url= "https://cdn.discordapp.com/emojis/736658894805532724.png?v=1")
 
     return embedVar
