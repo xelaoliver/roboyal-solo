@@ -1,31 +1,14 @@
-# Robo-Yal Solo
+# Robo-Yal Solo fix
 
-## Play the worldfamous game **Robo-Yal** all by yourself!
+Jelle Vermandere's RoboYal-Solo (Solo-Yal) has been broken since March, 2024... Until now. I won't be personally hosting the bot myself as I am unable to, but please feel free to host and read how to bellow. If you want to know how to play the all-time greatest Discord game, please visit [https://github.com/Jellevermandere/roboyal-solo](https://github.com/Jellevermandere/roboyal-solo).
 
-## Goal
-Battle has broken out!
-You play as a **Red Bot** 
-You must defeat all other **Blue Bots** on the field
+# How to host the bot
 
-## How To Play
+- Download my Repository and unzip on your machine.
+- Create a discord bot and paste your API key into credentials.py
+- Import all of the custom emojis (made by Jelle himself) and modify customEmoji.py with the appropriate Emoji ID's
+- Run main.py, and you should be able to play SoloYal!
 
-You can Choose one **action** every turn.  
-Every Bot has **2 lives:**. 
-You can damage Bots by **punching**. 
-Be careful, they can punch you too!"  
-You can only punch in front of you, so you will have to aim first by moving in the correct direction!  
-Movements always go before punches. The bots will hunt for you, but they will also hit each other.  
+Have fun!
 
-## Commands
-``$play`` ``easy``,``medium``,``hard``  Start a new game if you're not playing already.  
-``$stop``  Stop playing your current game.  
-
-## Controls
-Move your bot 1 tile **left**.  
-Move your bot 1 tile **up**.  
-Move your bot 1 tile **down**.  
-Move your bot 1 tile **right**.  
-Punch 1 tile in front of you.  
-
-Created by Jelle Vermandere.  
-Discord server:  https://discord.com/invite/cuMtQp6
+# All credit for the origional Roboyal-Solo goes to Jelle Vermandere, I just fixed and maintaned the code so it works.
